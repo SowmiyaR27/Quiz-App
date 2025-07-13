@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://wallpapers.com/images/featured/plain-background-0aqx3e65vih1xev1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quiz-container, .start-screen, .score-container {
+  background: rgba(255, 255, 255, 0.85); /* semi-transparent white */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 500px;
+  width: 90%;
+}
+
+    .btn-container button {
+      width: 100%;
+      margin: 5px 0;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .btn.correct {
+      background-color: #28a745;
+      color: white;
+    }
+
+    .btn.wrong {
+      background-color: #dc3545;
+      color: white;
+    }
+
+    #next-btn {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      display: none;
+    }
+
+    .progress-bar {
+      width: 100%;
+      background: #e0e0e0;
+      height: 10px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .progress {
+      height: 10px;
+      background: #4caf50;
+      width: 0%;
+      border-radius: 5px;
+    }
+
+    #timer {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    
